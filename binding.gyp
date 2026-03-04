@@ -135,10 +135,10 @@
           "-std=c++11"
         ],
         "cflags_c+": [
-          "-std=c++14"
+          "-std=c++17"
         ],
         "cflags_cc+": [
-          "-std=c++14"
+          "-std=c++17"
         ],
       }],
       ['OS=="mac"', {
@@ -148,7 +148,7 @@
             '-Wno-unused-private-field',
             '-Wno-sign-compare',
             '-stdlib=libc++',
-            '-std=c++14',
+            '-std=c++17',
           ],
         },
 

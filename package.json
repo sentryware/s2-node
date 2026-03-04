@@ -1,12 +1,12 @@
 {
-  "name": "@radarlabs/s2",
-  "version": "0.0.5",
+  "name": "@sentryware/s2-node",
+  "version": "0.0.6",
   "description": "Node.js JavaScript and TypeScript bindings for the Google S2 geolocation library.",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/radarlabs/s2.git"
+    "url": "https://github.com/sentryware/s2-node.git"
   },
   "scripts": {
     "build": "node-pre-gyp install --build-from-source",
@@ -20,9 +20,9 @@
     "geolocation"
   ],
   "devDependencies": {
-    "jest": "^24.8.0",
     "aws-sdk": "2.x",
-    "bindings": "^1.5.0"
+    "bindings": "^1.5.0",
+    "jest": "^24.8.0"
   },
   "binary": {
     "module_name": "s2",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10",
-    "node-addon-api": "^1.7.2",
-    "node-gyp": "^9.3.1"
+    "node-addon-api": "^8.6.0",
+    "node-gyp": "^11.5.0"
   }
 }
