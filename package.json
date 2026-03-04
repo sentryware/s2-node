@@ -29,10 +29,14 @@
     "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
     "remote_path": "./{module_name}/v{version}/{configuration}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://node-s2-binaries.s3.amazonaws.com"
-  },
+    "host": "https://storage.googleapis.com",
+    "bucket": "sentryware-s2-node",
+    "region": "us-central1",
+    "s3ForcePathStyle": true
+  }
+,
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^1.0.10",
+    "@mapbox/node-pre-gyp": "^2.0.3",
     "node-addon-api": "^8.6.0",
     "node-gyp": "^11.5.0"
   }
