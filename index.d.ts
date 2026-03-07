@@ -1,4 +1,4 @@
-declare module '@radarlabs/s2' {
+declare module '@sentryware/s2-node' {
 
   export type ChildPosition = 0 | 1 | 2 | 3;
 
