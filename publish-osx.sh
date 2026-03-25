@@ -11,7 +11,7 @@ for node in v20 v22 v24
 do
   nvm install $node
   nvm use $node
-  rm -rf node_modules
+  rm -rf node_modules build
   npm install
-  JOBS=max npx node-pre-gyp build package unpublish publish
+  JOBS=max npx node-pre-gyp rebuild package unpublish publish
 done
