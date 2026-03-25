@@ -1,6 +1,6 @@
 {
   "name": "@sentryware/s2-node",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Node.js JavaScript and TypeScript bindings for the Google S2 geolocation library.",
   "main": "index.js",
   "types": "index.d.ts",
